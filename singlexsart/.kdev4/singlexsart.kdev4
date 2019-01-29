@@ -1,0 +1,41 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x16\x00s\x00i\x00n\x00g\x00l\x00e\x00x\x00s\x00a\x00r\x00t)
+
+[CMake]
+Build Directory Count=1
+Current Build Directory Index=0
+ProjectRootRelative=./
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=file:///data/projects/singlexsart/build
+Build Type=
+CMake Binary=file:///usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=file:///usr/local
+
+[Defines And Includes][Compiler]
+Name=GCC
+Path=gcc
+Type=GCC
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=New Compiled Binary Launcher
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=-i BBa_fin.mrc -a BBa.tlt  -g 0,2.14,0,350 -o BBa_sart.mrc -m SART,5,0.2\s
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
+Dependency Action=Nothing
+EnvironmentGroup=
+Executable=file:///data/projects/singlexsart/build/bin/volrec_sglc
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=singlexsart,src,main-mpi,volrec_sglm
+Use External Terminal=false
+Working Directory=file:///home/liam/projects/dualxmauto-warp-correction/data/BBA_avgtmplt
+isExecutable=true

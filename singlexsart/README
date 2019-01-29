@@ -1,0 +1,9 @@
+to build it:
+
+cd ./singlexsart
+mkdir build
+cd ./build
+cmake ..
+make -j 10
+
+"volrec_sglm" will be produced in the bin
