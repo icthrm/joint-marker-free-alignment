@@ -10,6 +10,6 @@ newstack -input Energy.st -xf fin.xf -output ali.mrc #IMOD
 or 
 mrcstack -i Energy.st -x fin.xf -o ali.mrc #AuTom
 
-mpirun -n 15 volrec_sglm -i ali.mrc -o refine.rec -a Energy.tlt -x xtiltangle.txt  -g -1,2.5,-10,500 -m SART,20,0.2
+mpirun -n 15 volrec_sglm -i ali.mrc -o refine.rec -a Energy.tlt -x xtiltangle.txt  -g -1,2.5,-10,500 -m SART,20,0.2 #xtiltangle.ext is important, please don't omit it
 
 For the test data, please visit: https://drive.google.com/drive/folders/1ybRGbfgxYs12Gr28BNjQ4my73haWjk9v?usp=sharing
