@@ -1,4 +1,4 @@
-This is a prototype project of the joint method for marker-free alignment. The third-part modules will be removed in beta version.
+This is a alpha version of the joint method for marker-free alignment. The third-part modules will be removed in beta version.
 
 The files is build in fedora 25. To use the exe, please add the bin to the $PATH in the computer.
 
